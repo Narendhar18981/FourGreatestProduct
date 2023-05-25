@@ -1,7 +1,15 @@
 ﻿using System;
-public class Validate
+/// <summary>
+/// Validates the given input
+/// </summary>
+public class Validation
 {
-	//the method is used to validate the given input
+	/// <summary>
+	/// the method is used to validate the given input
+	/// </summary>
+	/// <param name="input"></param>
+	/// <returns></returns>
+	/// <exception cref="Exception"></exception>
 	public bool Is_CheckForCharAndLength(string input)
 	{	
 		
@@ -17,7 +25,6 @@ public class Validate
 			}
 		}
 
-		//if everything works fine then return to main code
         return true;
     }
 }

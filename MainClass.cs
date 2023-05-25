@@ -9,10 +9,13 @@ namespace FourDigitsGreatestProduct
         {
             Console.Write("Enter Only Digits As input : ");
             string input = Console.ReadLine();
-            Validate valid = new Validate();
+
+            Validation valid = new Validation();
             valid.Is_CheckForCharAndLength(input);
+
             FourGreatestProduct Obj = new FourGreatestProduct();
-            Console.WriteLine(Obj.GetResultantSolution(input));
+
+            Console.WriteLine(Obj.GetFourGreatestSolution(input));
         }
     }
 }

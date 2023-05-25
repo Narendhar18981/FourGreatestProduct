@@ -2,11 +2,11 @@
 public class FourGreatestProduct
 {
     /// <summary>
-    /// 
+    /// Gets four digits which have max product value
     /// </summary>
     /// <param name="Input"></param>
     /// <returns></returns>
-    public String GetResultantSolution(string Input)
+    public String GetFourGreatestSolution(string Input)
     {
         string fourDigitGreatestProduct = string.Empty;
         int MaxProduct = 0;     
